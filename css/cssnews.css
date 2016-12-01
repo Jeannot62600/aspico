@@ -1,0 +1,31 @@
+body{
+	background-color:grey;
+}
+
+#base_header div div div h2{
+	text-align:center;
+	font-size:40px;
+}
+
+.section_title{
+	font-size:20px;
+	padding-left:15px;
+}
+
+.img{
+	float:left;
+	width: 180px;
+	margin-left:15px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.paragraph{
+	padding-top:10px;
+}
+
+.section{
+	border: ridge 20px #d83113;
+	border-radius: 20px;
+	background-color: #ee3e4e;
+}
