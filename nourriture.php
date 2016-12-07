@@ -2,8 +2,12 @@
 <html>
     <head>
         <title>Annuaire</title>
+                <link rel="stylesheet" href="reset.css" />
+                <link rel="stylesheet" href="mainstyle.css" />
         <link rel="stylesheet" href="simplegrid.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href=".css" />
+        
         <meta charset='utf-8' />
     </head>
     <body>

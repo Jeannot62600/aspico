@@ -1,20 +1,17 @@
 <?php
 
-setcookie('pseudo',$_POST['pseudo'], time() + 365*24*3600, null, null, false, true);
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=aspicot;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=Message;charset=utf8', 'root', 'iut');
 }
 catch(Exception $e)
 {
         die('Erreur : '.$e->getMessage());
 }
 
-
-$req = $bdd->prepare('INSERT INTO chat (pseudo, message, date_message) VALUES(?, ?, ?)');
-$req->execute(array($_POST['pseudo'], $_POST['message'], date('H:i:s')));
+$req = $bdd->prepare('INSERT INTO acteurs (pseudo, nom, prenom, profession) VALUES(?, ?, ?, ?)');
+$req->execute(array($_POST['pseudo'], $_POST['nom'], $_POST['prenom'], $_POST['profession']));
 
 
 header('Location: formulaire.php');
-?>

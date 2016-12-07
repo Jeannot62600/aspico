@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>Nouvelles Actu</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="mainstyle.css" />
         <meta charset="utf-8"/>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/cssnews.css" rel="stylesheet">

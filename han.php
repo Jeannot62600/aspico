@@ -2,8 +2,10 @@
 <html>
 	<head>
 		<title>Annuaire</title>
+		<link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="simplegrid.css" />
         <link rel="stylesheet" href=".css" />
+        <link rel="stylesheet" href="mainstyle.css" />
         <meta charset='utf-8' />
     </head>
     <body>

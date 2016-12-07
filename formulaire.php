@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <link rel="stylesheet" href="mainstyle.css" />
         <title>...</title>
     </head>
     <style>
@@ -28,7 +29,7 @@
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=aspicot;charset=utf8', 'root', '');
+	$bdd = new PDO('mysql:host=localhost;dbname=Message;charset=utf8', 'root', 'iut');
 }
 catch(Exception $e)
 {
