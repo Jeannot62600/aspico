@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <p>
+            Bonjour,<br />
+            Votre compte leader viens d'etre créé.<br/>
+            Voici les informations qui vous permettront de vous connecter:<br/>
+        </p>
+
+        <ul>
+            <li>url: http://www.nuitdelinfo.com/n2i/users/loginform</li>
+            <li>login: jean.lapostolle@etud.u-picardie.fr</li>
+            <li>mot de passe: 7BJshL7wID</li>
+        </ul>
+        <p>Bonne nuit de l'info.</p>
+    </body>
+</html>
